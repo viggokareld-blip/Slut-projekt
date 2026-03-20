@@ -1,0 +1,42 @@
+.navbar{
+    background-color:darkblue;
+    top:0;
+    position:fixed;
+    width:100%;
+    border-width: 2%;
+    border-color: black;
+    opacity:0.9;
+    z-index: 1;
+}
+
+.navbar li {
+    flex:1;
+}
+
+.navbar ul {
+    display:flex;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.navbar a:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+.navbar a{
+    display:block;
+    color:grey;
+    text-align: center;
+    padding:3%;
+    text-decoration:none;
+}
+
+.pfp{
+    margin-top: 1%;
+    width: 15%;
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 70%;
+}
