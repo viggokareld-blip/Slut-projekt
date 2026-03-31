@@ -1,16 +1,18 @@
 .navbar{
-    background-color:darkblue;
+    background-color:black;
     top:0;
     position:fixed;
     width:100%;
     border-width: 2%;
-    border-color: black;
-    opacity:0.9;
+    border-color: white;
     z-index: 1;
 }
 
 .navbar li {
     flex:1;
+    color:white;
+    margin-left:5%;
+    margin-top: 2%;
 }
 
 .navbar ul {
@@ -21,22 +23,44 @@
 }
 
 .navbar a:hover{
-    color:blueviolet;
+    color:gray;
     text-decoration: underline;
 }
 
 .navbar a{
     display:block;
-    color:grey;
+    color:white;
     text-align: center;
-    padding:3%;
+    padding:2%;
     text-decoration:none;
+    font-size: 110%;
 }
 
 .pfp{
-    margin-top: 1%;
-    width: 15%;
-    height: 80%;
+    transform: translateY(-25%);
+    width: 25%;
+    height: 25%;
     border-radius: 50%;
-    margin-left: 70%;
+    margin-left: 50%;
+    margin-right: 20%;
+
 }
+.logo{
+    font-size: 150%;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.survey{
+    margin-top: 10%;
+    display: flex;
+    border-color: black;
+    border-width: 2%;
+    border-style: solid;
+    justify-content: center;
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+}
+
