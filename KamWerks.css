@@ -64,3 +64,70 @@
     justify-content: center;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-top: 100px;
+    background-image: url("1058519-landscape-forest-mountains-nature-sky-panorama-national-park-valley-wilderness-Alps-plateau-ridge-cloud-tree-autumn-mountain-grassland-meadow-natural-enviro.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
+}
+
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.price-table {
+    border-collapse: collapse;
+    width: min(90%, 800px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background: white;
+}
+
+.price-table thead th {
+    background-color: #222;
+    color: white;
+    padding: 18px 16px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.price-table tbody tr:nth-child(1) {
+    background-color: #f0f8ff;
+}
+
+.price-table tbody tr:nth-child(2) {
+    background-color: #e8f5e9;
+}
+
+.price-table tbody tr:nth-child(3) {
+    background-color: #fff3e0;
+}
+
+.price-table tbody td,
+.price-table tfoot td {
+    padding: 16px;
+    border: 1px solid #ddd;
+}
+
+.price-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.price-table tfoot td {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid #444;
+}
+
