@@ -3,21 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="KamWerks.css">
+    <link rel="stylesheet" href="CSS/KamWerks.css">
     <title>KamWerksMeny</title>
 </head>
+    <nav class="navbar">
+        <ul>
+        <div class="logo">
+        <li>KamWerks</li>
+        </div>
+        <li><a href="KamWerks_meny.html">Om oss</a></li>
+        <li><a href="KamWerksAnnanSida.html">annan sida</a></li>
+        <li><a href="KamWerks_Tabell.html">Pris Tabell</a></li>
+        <li><a href="KamWerksProfil.html"><img src="bilder/user_318-644324.avif" alt="pfp" class="pfp"></a></li>
+        </ul>
+    </nav>
 <body>
-<nav class="navbar">
-    <ul>
-      <div class="logo">
-      
-      <li>KamWerks</li>
-      </div>
-      <li><a href="KamWerks_meny.html">Om oss</a></li>
-      <li><a href="KamWerksAnnanSida.html">annan sida</a></li>
-      <li><a href="KamWerksAnnanSida.html">annan sida</a></li>
-      <li><a href="KamWerks_Tabell.html">Pris Tabell</a></li>
-      <li><a href="KamWerksProfil.html"><img src="user_318-644324.avif" alt="pfp" class="pfp"></a></li>
-</nav>
+<main>
+    <section class="header-section">
+        <div class="header-div">
+            <h1>Välkommen till KamWerks</h1>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="info-section">
+            <h2>Om oss</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam facere laborum voluptate aspernatur veniam mollitia, vitae eveniet est necessitatibus amet labore ullam qui sequi obcaecati. Est debitis minus voluptatum.</p>
+        </div>
+    </section>
+
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <button class="carousel-button prev-button" id="prevBtn" aria-label="Föregående bild">&#10094;</button>
+            <img id="carouselImage" class="carousel-image" src="bilder/OIP.jpg" alt="Bildrotation">
+            <button class="carousel-button next-button" id="nextBtn" aria-label="Nästa bild">&#10095;</button>
+        </div>
+    </section>
+    
+    <section class="contact-section">
+        <footer class="site-footer">
+            <p>Kontakt: 070-123 45 67 | Gmail: exempel@gmail.com</p>
+        </footer>
+    </section>
+</main>
+<script src="JS/KamWerks.js"></script>
 </body>
 </html>
