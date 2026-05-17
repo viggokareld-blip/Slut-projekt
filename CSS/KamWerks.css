@@ -5,9 +5,10 @@
     top:0;
     position:fixed;
     width:100%;
-    border-width: 2%;
+    border-width: 2px;
     border-color: white;
     z-index: 1;
+    max-height: 12%;
 }
 
 .navbar li {
@@ -48,9 +49,9 @@
 
 }
 .logo{
-    font-size: 150%;
+    font-size: 120%;
     font-weight: bold;
-    padding: 2%;
+    padding: 1%;
 }
 .header-section {
     display: flex;
@@ -76,7 +77,7 @@
     margin-top: 2%;
     display: block;
     border-color: black;
-    border-width: 2%;
+    border-width: 2px;
     border-style: solid;
     position: relative;
     top: 10%;
@@ -103,6 +104,7 @@
 
 .carousel-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
@@ -117,6 +119,15 @@
     max-width: 380px;
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
     position: relative;
+    text-align: center;
+}
+
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
 }
 
 .carousel-button {
@@ -147,31 +158,23 @@
 }
 
 .Survey{
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     border-color: black;
-    border-width: 2%;
+    border-width: 2px;
     border-style: solid;
     justify-content: center;
-    position: fixed;
+    position: relative;
     top: 10%;
-    left: 50%;
+    left: 13%;
     transform: translateX(-50%);
     z-index: 10;
     background: white;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 10px;
 }
 .submit-btn{
     display: flex;
     justify-content: center;
-}
-
-.contact-section {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
 }
 
 .site-footer {
@@ -191,6 +194,12 @@ h1 {
     color: black;
 }
 
+h2 {
+    font-family: 'family', cursive;
+    font-size: 1rem;
+    color: black;
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -202,7 +211,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: relative;
 }
 
 .table-container {
